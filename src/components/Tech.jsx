@@ -31,7 +31,7 @@ const Tooltip = ({ text, rate, comment, children }) => {
 
   return (
     <div
-      className="relative inline-block"
+      className="relative"
       onMouseEnter={showTooltip}
       onMouseLeave={hideTooltip}
     >
@@ -42,7 +42,7 @@ const Tooltip = ({ text, rate, comment, children }) => {
           <div className="flex justify-center items-center">
             {renderStars(rate)}
           </div>
-          <p className="x-3 pt-3 pb-1 text-secondary">{comment}</p>
+          <p className="px-3 pt-3 pb-1 text-secondary">{comment}</p>
         </div>
       )}
     </div>

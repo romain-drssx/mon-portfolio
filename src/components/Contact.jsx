@@ -39,9 +39,9 @@ const Contact = () => {
 
         <div className="flex justify-center mt-2">
           <div className="inline-flex align-center px-3 py-1 mt-6 text-sm font-semibold rounded-full border-2 border-white shadow-md transition duration-300 hover:bg-white cursor-pointer">
-            <p className={`text-secondary text-white-100 hover:text-black-100`}>
+            <a href="./../../CV 2025 - Romain DURAYSSEIX.pdf" download="CV 2025 - Romain DURAYSSEIX.pdf" className={`text-secondary text-white-100 hover:text-black-100`}>
               Télécharger mon CV
-            </p>
+            </a>
           </div>
         </div>
         
