@@ -11,9 +11,9 @@ import {
   php,
   css,
   tailwind,
-  bootstrap,
   wordpress,
-  phpmyadmin,
+  nodejs,
+  springboot,
   strapi,
   elasticsearch,
   git,
@@ -104,28 +104,28 @@ const technologies = [
     comment: "Maitrise vraiment bien (2 ans d'expérience)"
   },
   {
-    name: "Bootstrap",
-    icon: bootstrap,
-    rate: 4,
-    comment: "Maitrise vraiment bien (1 an d'expérience)"
-  },
-  {
     name: "Wordpress",
     icon: wordpress,
     rate: 3,
     comment: "Déjà réalisé plusieurs sites avec pour des projets d'écoles"
   },
   {
-    name: "PhpMyAdmin",
-    icon: phpmyadmin,
-    rate: 4,
-    comment: "Déjà utilisé plusieurs fois, bon en SQL"
-  },
-  {
     name: "Strapi",
     icon: strapi,
     rate: 4,
     comment: "Maitrise vraiment bien (3 ans d'expérience)"
+  },
+  {
+    name: "NodeJS",
+    icon: nodejs,
+    rate: 3,
+    comment: "Déjà utilisé plusieurs fois en cours + dans des projets"
+  },
+  {
+    name: "Spring Boot",
+    icon: springboot,
+    rate: 2,
+    comment: "Maitrise que les bases"
   },
   {
     name: "ElasticSearch",

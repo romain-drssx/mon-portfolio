@@ -15,9 +15,9 @@ import react from "./tech/reactjs.png";
 import php from "./tech/php.png";
 import css from "./tech/css.png";
 import tailwind from "./tech/tailwind.png";
-import bootstrap from "./tech/Bootstrap_logo.svg";
 import wordpress from "./tech/wordpress.png";
-import phpmyadmin from "./tech/PhpMyAdmin_logo.png";
+import nodejs from "./tech/Node.js_logo.svg.png";
+import springboot from "./tech/spring-boot-logo.png";
 import strapi from "./tech/strapi.png";
 import elasticsearch from "./tech/elasticsearch.svg";
 import git from "./tech/git.png";
@@ -52,9 +52,9 @@ export {
   php,
   css,
   tailwind,
-  bootstrap,
+  nodejs,
   wordpress,
-  phpmyadmin,
+  springboot,
   strapi,
   elasticsearch,
   git,
