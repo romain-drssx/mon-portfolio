@@ -42,16 +42,39 @@ const ExperienceCard = ({ experience }) => {
         </p>
       </div>
 
-      <ul className='mt-5 list-disc ml-5 space-y-2'>
-        {experience.points.map((point, index) => (
-          <li
-            key={`experience-point-${index}`}
-            className='text-white-100 text-[14px] pl-1 tracking-wider'
-          >
-            {point}
-          </li>
-        ))}
-      </ul>
+      <div class="my-4">
+        <span className="text-white-100 text-[14px]">{experience.project}</span>
+      </div>
+
+      <div>
+        <h4 className='text-white-100 text-[14px] font-bold'>Missions :</h4>
+        <ul className=" list-disc ml-5 space-y-2">
+          {experience.missions.map((point, index) => (
+            <li
+              key={`experience-point-${index}`}
+              className="text-white-100 text-[14px] pl-1 tracking-wider"
+            >
+              {point.text}
+              {point.subpoints && (
+                <ul className="list-disc ml-5 mt-1 space-y-1">
+                  {point.subpoints.map((subpoint, subIndex) => (
+                    <li
+                      key={`experience-subpoint-${index}-${subIndex}`}
+                      className="text-white-100 text-[13px] pl-1 tracking-wide"
+                    >
+                      {subpoint}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="mt-4">
+        <span className='text-white-100 text-[13px] italic'>{experience.environment}</span>
+      </div>
     </VerticalTimelineElement>
   );
 };
