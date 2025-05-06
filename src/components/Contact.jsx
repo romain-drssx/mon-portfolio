@@ -19,8 +19,8 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>Contact</h3>
         <div className="flex justify-center">
           <div className="inline-flex align-center px-3 py-1 mt-6 text-sm font-semibold rounded-full border-2 border-white shadow-md transition duration-300 hover:bg-white cursor-pointer">
-            <a className={`text-secondary text-white-100 hover:text-black-100`} href="mailto:dudu.romain.8@gmail.com">
-              dudu.romain.8@gmail.com
+            <a className={`text-secondary text-white-100 hover:text-black-100`} href="mailto:romain.drssx@gmail.com">
+              romain.drssx@gmail.com
             </a>
           </div>
         </div>

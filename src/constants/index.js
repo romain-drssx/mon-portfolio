@@ -143,56 +143,142 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Développeur Angular",
-    company_name: "Yuzer, Paris",
+    title: "Développeur Fullstack",
+    company_name: "Yuzer, Paris (Full Télétravail)",
     icon: logo_yuzer,
     iconBg: "#E6DEDD",
-    date: "2023/2024 - 12 mois en CDI/Télétravail",
-    points: [
-      "Intervenir sur une ERP intuitive, instantanée et personnalisable",
-      "Optimiser les recherches dans la base de données pour un meilleur temps de réponse sur l'ERP",
-      "Travailler en équipe de façon agile"
+    date: "CDI 1 an · Novembre 2023 - Novembre 2024",
+    project: "Yuzer est un ERP SaaS 360° destiné aux professionnels de la moto, du vélo et de l'automobile. L'entreprise propose une solution moderne et adaptée pour la gestion des tâches, des réceptions de commande, des inventaires, etc.",
+    missions: [
+      {
+        text: "Analyse de la solution existante pour identifier les leviers d’amélioration."
+      },
+      {
+        text: "Développement backend en Kotlin (Spring Boot) :",
+        subpoints: [
+          "Conception de routes CRUD robustes pour assurer une communication fluide avec le frontend.",
+          "Gestion des accès utilisateurs selon les 4 types d’offres ERP avec une gestion différenciée des accès utilisateurs.",
+          "Intégration de filtres de recherche avancés, basés sur ElasticSearch, permettant une recherche intelligente et performante."
+        ]
+      },
+      {
+        text: "Développement frontend en Angular :",
+        subpoints: [
+          "Création d’interfaces réactives avec formulaires dynamiques, gestion d’état, et communication via services HTTP.",
+          "Développement d'une nouvelle vue de planification type Gantt pour la gestion des tâches, accompagnée de la création d’un nouveau format d’affichage des cartes de tâches, afin de mieux visualiser les informations clés.",
+          "Intégration UI avec Tailwind CSS pour un rendu moderne et responsive.",
+          "Intégration de la solution de chat client multicanal CRISP (support, chatbot, etc.)."
+        ]
+      },
+      {
+        text: "Maintenance & amélioration continue :",
+        subpoints: [
+          "Détection et correction de bugs sur les environnements Angular/Kotlin.",
+          "Participation active à la fiabilisation du code et à l’amélioration de la couverture de tests.",
+        ]
+      },
+      {
+        text: "Participation active aux événements Agile en anglais (daily stand-ups, sprint reviews, planning poker), favorisant la collaboration internationale au sein de l'équipe."
+      }
     ],
+    environment: "Frontend en Angular, Backend en Kotlin (Framework Spring Boot), Docker, Slack, Soucetree, Github, Visual Studio Code, IntelliJ IDEA, Tailwind CSS, phpMyAdmin, MySQL, MacOS"
   },
   {
-    title: "Développeur Angular",
+    title: "Développeur Fullstack",
     company_name: "Rider Club, Bordeaux",
     icon: logo_riderclub,
     iconBg: "#E6DEDD",
-    date: "2020/2023 - Alternance de 2 ans + 1 an et 2 mois en CDI",
-    points: [
-      "Réaliser l'application web d'un service de location de motos pour particuliers et professionnels",
-      "Résoudre les bugs le plus rapidement possible pour une meilleure expérience utilisateur",
-      "Toujours chercher à améliorer l'application",
-      "Réaliser des designs pour la communication sur l'application et les réseaux sociaux",
-      "Travailler en équipe de façon agile",
+    date: "Alternance 2 ans + CDI 1 an et 2 mois · 2020/2023",
+    project: "Rider Club est une plateforme française de location de deux-roues entre particuliers et professionnels, assurée par Allianz. Elle permet aux utilisateurs de louer des motos et scooters pour des week-ends, des vacances ou pour essayer avant d'acheter.",
+    missions: [
+      {
+        text: "Développement frontend en Angular :",
+        subpoints: [
+          "Refonte complète de l'application selon des maquettes fournies par un prestataire externe (Figma), avec mise en œuvre de composants dynamiques, responsive et performants grâce à Tailwind CSS.",
+          "Création d’un système de messagerie en temps réel entre utilisateurs via WebSockets (mis en place côté backend), avec gestion des connexions/déconnexions, envoi différé et notifications visuelles.",
+          "Mise en place d’un système d’avis utilisateurs (évaluations bilatérales locataire/propriétaire), inspiré de Blablacar, avec logique conditionnelle d’affichage selon les statuts des locations.",
+          "Optimisation des performances de l'application web pour garantir une expérience fluide, tout en améliorant le référencement SEO.",
+          "Conception et intégration d’un composant calendrier personnalisé, entièrement développé en interne pour répondre aux exigences spécifiques du projet."
+        ]
+      },
+      {
+        text: "Développement backend avec Strapi (Node.js Headless CMS) :",
+        subpoints: [
+          "Structuration des collections et permissions selon les rôles (locataire, propriétaire, admin).",
+          "Création de routes API sécurisées, gestion des rôles avec des policies middleware personnalisées pour un contrôle fin des accès aux données.",
+          "Développement de logiques métiers côté Strapi, via des custom controllers."
+        ]
+      },
+      {
+        text: "Maintenance & amélioration continue :",
+        subpoints: [
+          "Tests multi-plateformes des fonctionnalités sur l’App Store, le Play Store et la version web, afin de garantir la cohérence et la stabilité du produit.",
+          "Résolution des bugs et amélioration continue des fonctionnalités."
+        ]
+      },
+      {
+        text: "UI/UX : réalisation de maquettes d’écrans secondaires en complément de celles fournies, avec intégration pixel-perfect en Angular."
+      }
     ],
+    environment: "Frontend Angular, Backend avec Strapi (Node.js Headless CMS), Webstorm, Github, Figma, Slack, Tailwind CSS, Docker, phpMyAdmin, MySQL, MacOS"
   },
   {
-    title: "Alternant Développeur PHP",
+    title: "Alternant Développeur Fullstack",
     company_name: "Doing, Saint-Etienne",
     icon: logo_doing,
     iconBg: "#E6DEDD",
-    date: "2019/2020 - Alternance d'1 an",
-    points: [
-      "Réaliser des sites sur mesure en fonction des besoins des clients",
-      "Apprendre un framework maison PHP",
-      "Travailler en équipe de façon agile",
+    date: "Alternance d'1 an · 2019/2020",
+    project: "DOING est une entreprise stéphanoise spécialisée dans le développement d'applications métiers web et mobile sur mesure depuis plus de 30 ans. Engagée dans une démarche de développement durable, elle est labellisée Entreprise Numérique Responsable depuis 2012.",
+    missions: [
+      {
+        text: "Prise en main d’un framework PHP interne et apprentissage des standards de l’entreprise."
+      },
+      {
+        text: "Création de pages d’accueil et de menus de navigation."
+      },
+      {
+        text: "Intégration de formulaires de contact fonctionnels."
+      },
+      {
+        text: "Développement de backoffices administrables."
+      },
+      {
+        text: "Mise en place de routes CRUD et traitement des erreurs."
+      },
+      {
+        text: "Travail collaboratif en Agile (Poker Planning, Sprint)."
+      }
     ],
+    environment: "Frontend et backend géré avec le framework PHP, Visual Studio Code, MariaDB, phpMyAdmin, JIRA, Gitlab, Slack, Docker, MacOS"
   },
   {
-    title: "Stagiaire Développeur",
+    title: "Stagiaire Développeur ASP",
     company_name: "CHU de Limoges",
     icon: logo_chu_limoges,
     iconBg: "#E6DEDD",
-    date: "2019 - Stage de 14 semaines + 1 mois en CDD",
-    points: [
-      "Evoluer l'intranet",
-      "Assurer le bon fonctionnement de l'infrastructure du système d'information",
-      "Assister les utilisateurs",
-      "Fournir les équipements informatiques",
-      "Garantir la sécurité du système d'information"
+    date: "Stage 14 semaines + CDD 1 mois · 2019",
+    project: "Le Centre Hospitalier Universitaire (CHU) de Limoges est un établissement de santé majeur en Nouvelle-Aquitaine. La Direction des Systèmes d'Information (DSI) gère l'infrastructure informatique de l'hôpital, y compris l'intranet utilisé par le personnel médical et administratif.",
+    missions: [
+      {
+        text: "Automatisation du module de gestion des formations."
+      },
+      {
+        text: "Réalisation de maquettes pour les nouveaux modules."
+      },
+      {
+        text: "Développement de fonctionnalités supplémentaires sur l’intranet."
+      },
+      {
+        text: "Support aux utilisateurs du personnel hospitalier."
+      },
+      {
+        text: "Garantie de la sécurité des accès et des données."
+      },
+      {
+        text: "Résolution de bugs et assistance technique."
+      },
     ],
+    environment: "Frontend en ASP, Adobe Dreamweaver CS6, Windows"
   },
 ];
 
